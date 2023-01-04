@@ -1,4 +1,9 @@
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body {
 
@@ -7,28 +12,75 @@ body {
 
 h1 {
     text-align: center;
+    position: relative;
+}
+
+.no-text-wrap  {
+    clear: right;
 }
 
 .box {
-    box-sizing: border-box;
-
-   background-color: gray;
-
-
-   border-width: 1px; 
-   border-style: solid;
-   border-color: black;
-
-   padding: 10px 10px 10px 10px;
-
-   margin: 15px;
+    position: relative;
+    background-color: #fff1e6;
+    border-width: 1px; 
+    border-style: solid;
+    border-color: black;   
+    padding: 10px;
+    margin: 10px;
 }
 
 #title-1 {
-    text-align: right;
-    background-color: red;
+    background-color: #ffcc5f;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 8px;
+    text-align: center;
+
+
+    position: relative;
+    float: right;
+    clear: right;
+
+    margin-top: -11px;
+    margin-right: -11px;
+
+    width: 200px;
 }
 
-#title-2 {}
+#title-2 {
+    background-color: #bc544b;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 8px;
+    text-align: center;
 
-#title-3 {}
+    float: right;
+    clear: right;
+
+    position: relative;
+
+    margin-top: -11px;
+    margin-right: -11px;
+    
+    width: 200px;
+}
+
+#title-3 {
+    background-color: #adadc9;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 8px;
+    text-align: center;
+
+
+    position: relative;
+    float: right;
+    clear: right;
+    margin-top: -11px;
+    margin-right: -11px;
+
+    width: 200px;
+}
