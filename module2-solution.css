@@ -25,7 +25,7 @@ h1 {
     border-style: solid;
     border-color: black;   
     padding: 10px;
-    margin: 20px;
+    margin: 20px
 
 }
 
@@ -85,8 +85,11 @@ h1 {
     /*desktop version*/
     @media (min-width: 992px) {
         .row {
-            float: left;
-            width: 28%;
+            float: right;
+            width: 30%;
+            overflow: visible;
+            margin: 1.66666666667%;
+
         }
     }
 
@@ -102,6 +105,8 @@ h1 {
         .mid-full {
             width: 95%;
             float: right;
+            margin-right: 2.5%;
+            overflow: visible;
         }
 
         .center {
@@ -116,13 +121,3 @@ h1 {
             
         }
     }
-
-/*Desktop: 992px and above
-3 sections should take up equal amount of space on the screen. As you make the browser window wider or narrower, each section should become wider or narrower. (Hint: use percentages to define width and use the 'float' property. See Lecture 24). 
-
-
-Tablet: 768px - 991px
-the first 2 sections should be in the first row and be of equal size. The 3rd section should be in the second row and take up the entire row by itself. 
-
-Mobile: less than or equal 767px
-each section should take up the entire row.
